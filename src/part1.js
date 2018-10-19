@@ -1,4 +1,4 @@
-//Its a start!
+
 
 function myLoop(){
 
@@ -6,10 +6,13 @@ function myLoop(){
   if(i%3 === 0){
     console.log('home')
    }
-  else if(i%4 === 0){
+  if(i%4 === 0){
     console.log('away')
-   }else {console.log(i%4)}
+   }
+  if (i%3 && i%4 === 0){
+  console.log('HomeAway')
+  }else {console.log(i)}
    
  }
-
+  
 }myLoop()
